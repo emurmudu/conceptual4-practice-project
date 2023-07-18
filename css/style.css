@@ -1,0 +1,265 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    background-color: #9376e0;
+}
+
+.nav-container{
+    border: 1px solid red;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;  /* 0=top+bottom, auto=left+right*/
+
+}
+.logo-container{
+    border: 1px solid green;
+    display: flex;
+    width: 50%;
+    
+}
+.logo-container img{
+    border: 1px solid green;
+    width: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.logo-container p{
+    font-size: 30px;
+    border: 1px solid springgreen;
+    
+}
+.hive-section{
+    color: #e893cf;
+}
+.nav-items-container{
+    border: 1px solid red;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.nav-items-container .login-btn{
+    background-color: #e893cf;
+    padding: 10px 20px;     /* 10px=top+bottom, 20px=left+right*/
+    font-weight: 700;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+/* nav section style ends here */
+
+/* banner section style starts here */
+
+.banner-container{
+    border: 1px solid red;
+    margin: 50px auto 0;        /* 50px=top, auto=left+right, 0=bottom*/
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+    background-color: #E6E9EB;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.banner-text{
+    border: 1px solid red;
+    width: 50%;
+    text-align: center;
+}
+
+.banner-img{
+    border: 1px solid red;
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+    height: auto;
+    /* height: 100%; */
+    border-radius: 10px;
+}
+.banner-text h1{
+    background-image: linear-gradient(to bottom, #9376e0, #e893cf);
+    color: transparent;
+    font-size: 50px;
+    -webkit-background-clip: text;
+}
+.banner-text p{
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.icons-container{
+    margin-bottom: 20px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto 40px;
+}
+
+.fa-brands{
+    font-size: 50px;
+}
+
+.banner-button{
+    background-color: transparent;
+    padding: 10px 20px;     /* 10px=top+bottom, 20=left+right*/
+    border: 2px solid #9376e0;
+    border-radius: 5px;
+}
+/* banner section style ends here */
+
+/* Product section style starts here */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    border: 1px solid springgreen;
+    max-width: 1400px;
+    margin: 50px auto 0;
+    min-height: 400px;
+    
+}
+
+.single-product{
+    /* width: 30%; */
+    border: 1px solid violet;
+    background-color: #DBDFE3;
+    border-radius: 10px;
+    padding: 0 10px;
+    box-shadow: 2px 2px 4px black;
+}
+.single-product img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-icon-name-container{
+    border: 1px solid springgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-icon{
+    font-size: 25px;
+    
+    
+}
+.product-icon-name-container span{
+    padding: 10px;
+    background-color: #9376E0;
+    border-radius: 50%;
+    margin-left: 5px;
+    color: white;
+}
+
+
+/* Product section style ends here */
+
+
+/* Discount Section Starts Here */
+
+    .discount-section{
+        background-color: #9376E0;
+        min-height: 500px;
+        padding: 20px 0;
+    }
+
+    .discount-container{
+        max-width: 1400px;
+        margin: 0 auto;
+        border: 1px solid yellow;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .discount-img{
+        width: 50%;
+        border: 1px solid red;
+        position: relative;
+    }
+
+    .discount-img img{
+        width: 70%;
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .discount-text{
+        width: 50%;
+    }
+
+    .discount-number{
+        background-color: yellow;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        font-size: 30px;
+        position: absolute;
+        top: 3%;
+        left: 65%;
+    
+    }
+
+/* Discount Section Ends Here */
+
+/* Review section style starts here */
+
+.review-container{
+    border: 1px solid springgreen;
+    /* min-height: 700px; */
+    gap: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    /* align-items: center */
+    
+}
+
+.single-review{
+    border: 1px solid red;
+    width: 30%;
+    flex-basis: 300px;
+    background-color: #E893CF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.single-review img{
+    width: 60px;
+    height: 60px;
+}
+
+.top-review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Review section style ends here */
