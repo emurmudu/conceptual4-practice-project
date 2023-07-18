@@ -1,0 +1,80 @@
+
+@media screen and (max-width: 400px) {
+    
+    .logo-container{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-container img{
+        margin-right: 1px;
+        width: 80px;
+    }
+
+    .logo-container p{
+        font-size: 25px;
+        
+    }
+
+    .nav-container{
+        flex-direction: column;
+    
+    }
+
+    .nav-items-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-items-container a{
+        margin-top: 20px;
+    }
+
+    .nav-items-container .login-btn{
+        width: 100%;
+    
+    }
+
+
+    /* Banner section styles starts here */
+
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-img, .banner-text{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .banner-text h1{
+        font-size: 30px;
+    }
+    .banner-text p{
+        font-size: 25px;
+    }
+    .fa-brands{
+        font-size: 35px;
+    }
+     /* Banner section styles ends here */
+
+
+    /* Product section styles starts here */
+
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+    /* Product section styles ends here */
+
+
+    .discount-container{
+        flex-direction: column;
+    }
+    .discount-img, .discount-text{
+        width: 100%;
+    }
+
+
+    
+}
+
+
+
